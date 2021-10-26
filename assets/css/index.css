@@ -9,7 +9,7 @@ body{
     height: 100vh;
 }
 
-.main__wrapper__keys{
+.keys{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -25,6 +25,14 @@ body{
     width: 100px;
     border-radius: 10px;
     border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    transition: all .1s ease;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(12, 245, 12);
+    box-shadow: 0 0 10px rgb(12, 245, 12);
 }
 
 .key > kbd{
